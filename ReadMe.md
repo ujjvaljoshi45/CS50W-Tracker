@@ -69,7 +69,6 @@ index.css controls the style of whole website exept about webpage
 
 about.css contains balloon animation from https://codepen.io/bennettfeely/pen/DrNgoO
 
-# Clouser
 This was what I belive I truely learned so far from the course
 So yeah thats it I think I am ready!
 
