@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'tracker/about.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+
+        <h2>Welcome To Tracker</h2>
+        <p style="text-align: center;
+        background-color: #4df458;
+        margin: 18px;
+        padding: 8px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 500px;
+        display: inline-block;">
+            Hey Guys!
+            My name is Ujjval and I made this web application
+            to help you keep track of your expenses and keep track of your money.
+            You can add money to your account and add expenses to your account.
+            You can also see your total amount of money in your account.
+            You can also see your total amount of expenses in your account.
+            So that you always keep Up!
+            I made this project as a final project for my CS50W course by harvard!
+        </p>
+        <h2>Made with ❤️ and 🎶</h2>
+        <input type="button" value="Go Back" onclick="goBack()">
+        </center>
+</body>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</html>

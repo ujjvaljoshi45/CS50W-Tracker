@@ -1,0 +1,40 @@
+#nav-div{
+    background-color: #e0c0c0;
+    border-bottom: 1px solid #e3e3e3;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    position: relative;
+    width: 100%;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 8px;
+    padding: 0 2px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(121, 89, 89);
+}
+#add-expense{
+    text-align: center;
+    background-color: #a49c9c;
+    margin: 18px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 500px;
+    display: inline-block;
+}
+
+#add-money{
+    text-align: center;
+    background-color: #a49c9c;
+    margin: 18px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 500px;
+    display: inline-block;
+}

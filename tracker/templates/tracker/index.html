@@ -1,0 +1,30 @@
+{% extends 'tracker/layout.html' %}
+
+{% block body %}
+
+<center>
+    <div id="add-money">
+        <form id="add-money-form" style="text-align: center;">
+            <h3>Add Money</h3>
+            <!-- <input type="hidden" value="{{user.username}}"> -->
+            <input required id="new-amount" type="number" min="0" value="0.00" step=".1" name="amount" placeholder="Amount" style="height: 25px;">
+            <input id="add-money-btn" type="button" value="Add" style="height: 31px;">
+        </form>
+    </div>
+    <br>
+    <div id="add-expense">
+        <form id="add-expense-form">
+            <h3>Add Expense</h3>
+            <input required id="expense-name" type="text" name="name" placeholder="Name" style="height: 25px; width: 50%;"> <br> <br>
+            <input required id="expense-amount" type="number" min="0" value="0.00"  name="amount" placeholder="Amount" style="height: 25px; width: 50%;"> <br><br>
+            <textarea required id="expense-description" name="description" placeholder="Description" style="height: 100px; width: 50%;"></textarea> <br><br>
+            <input id="expense-date" type="date" name="date" min="2021-01-01" max=value style="height: 25px; width: 50%;"><br><br>
+            <input id="add-expense-btn" type="button" value="Add" style="height: 31px; "><br><br>
+        </form>
+    </div>
+</center>
+
+<script>
+    document.querySelector("#expense-date").valueAsDate = new Date();
+</script>
+{% endblock %}
