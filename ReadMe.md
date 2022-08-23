@@ -1,76 +1,49 @@
 # Tracker
-Hey Reader!
-Hope you will like my project!
-So, The idea came up when I was struggling with my expenses in college. We all do.
-So, I thought why not make an expense tracker of my own.
-So here I am with a web application tracker
+Final Project [CS50's Web Programming with Pyhton and JavaScript]
+(https://cs50.harvard.edu/web).
 
-# Technicals
-1. Models
-I came up with 3 models
-            - User
-            - Expense
-            - TotalAmount
-i. User
-This is a simple user model.
-I used the same model that the course used
+Thank you CS50 team❤️ for amazing course and the experience.
 
-ii. Expense
-Expense model will be used to store the expenses
-name,amount,description everything you want to store for your expense
+##About Tracker
+Tracker is your pocket tracker it helps you keep a track of your money.
 
-iii. TotalAmount
-This model only constains track of the total amount you got (You can always add or remove money from your total amount)
+In Tracker you can add your money that you got to spend.
+Every time you do some expense come to tracker and register it on the tracker.
+In this way we can never lose track of our expenses.
 
-2. Views
-The web application got 3 views other then regular login and register views
-The main layout file contains the navigation, greeting and Total Amount tracker 
+Tracker is a part of project ExpenseManager.
 
-i. Index
-We got two forms over here
-Add Money or Expense from this view
+## Distinctiveness and Complexity
 
-ii. track record
-Here all the expenses that you had added so far are present
+Tracker is very much distinct from all other projects in this course.
+It is also not based on the old CS50W Pizza project.
 
-iii. about
-A small note for the vistor
+Tracker i made with Django using 3 models and JavaScript.
 
-3. Urls
-I had used apis to fetch data
-in this way the web application takes very less no of reloads
+The web application is mobile responsive.
 
-i.add money
-Api to add money that will return a message if the money is added or not
+## Overview
 
-ii. add expense
-Api to add expense that will use a function from views.py to do so
-The expense will only be added if you have enough money
-If there is not enough money the user will be notified 
-Else the user will notified if the expense is added
+|   Filename    |   Description|
+| :---: | :---: |
+| ``tracker/models.py`` | Contains three models User, Expense and TotalAmount.  |
+| ``tracker/views.py``  | All the main implementation of web application is in views.py.    |
+| ``tracker/urls.py``   | All the urls and apis are listing in the urls.py. |
+| ``tracker/static/index.js``   | Contains the JavaScript Code for index page which will add money and expense. |
+| ``tracker/static/ExpenseView.js`` | Contain JavaScript to maintain the trackrecord.html. It will load all the expenses that the user had added so far.    |
+| ``tracker/static/style.css``  | CSS for the style of webpages.    |
+| ``tracker/static/about.css``  | Contains Animation for about me page. |
+| ``tracker/templates`` | This folder contains all the html pages that are available.   |
 
-iii. get expense
-This api will be called to get all the expenses the user had added so far.
-Then the data is presented in trackrecord.html webpage
-
-iv. get total amount
-This api will return total amount that is left with user
-
-4. Javascript files
-I had created two js files, as the things were mixing up too much.
-in Index.js we got all the add functionality and control over index webpage
-
-In ExpenseView we call api to get all the expenses and then we show it in html div
-Like a list
-
-5. CSS files
-index.css and about.css are two css files
-index.css controls the style of whole website exept about webpage
-
-about.css contains balloon animation from https://codepen.io/bennettfeely/pen/DrNgoO
-
-This was what I belive I truely learned so far from the course
-So yeah thats it I think I am ready!
-
-Thank You CS50 ❤️
-Hope you will like it 🤞
+## How to Run
+1. Clone or download the repo
+2. Open a terminal and locate the folder containing manage.py file
+3. Make sure that latest version of python and django are already installed
+4. Run django server
+```
+python manage.py runserver
+```
+5. Open your browser and go to the url
+```
+127.0.0.1:8000
+```
