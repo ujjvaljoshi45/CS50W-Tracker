@@ -1,10 +1,9 @@
 # Tracker
-Final Project [CS50's Web Programming with Pyhton and JavaScript]
-(https://cs50.harvard.edu/web).
+Final Project [CS50's Web Programming with Pyhton and JavaScript](https://cs50.harvard.edu/web).
 
 Thank you CS50 team❤️ for amazing course and the experience.
 
-##About Tracker
+## About Tracker
 Tracker is your pocket tracker it helps you keep a track of your money.
 
 In Tracker you can add your money that you got to spend.
@@ -39,11 +38,12 @@ The web application is mobile responsive.
 1. Clone or download the repo
 2. Open a terminal and locate the folder containing manage.py file
 3. Make sure that latest version of python and django are already installed
-4. Run django server
+4. Install the requirements using ``pip install -r requirements.txt``
+5. Run django server
 ```
 python manage.py runserver
 ```
-5. Open your browser and go to the url
+6. Open your browser and go to the url
 ```
 127.0.0.1:8000
 ```
