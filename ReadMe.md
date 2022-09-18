@@ -38,10 +38,24 @@ The web application is mobile responsive.
 1. Clone or download the repo
 2. Open a terminal and locate the folder containing manage.py file
 3. Make sure that latest version of python and django are already installed
-4. Install the requirements using 
-``pip install -r requirements.txt``
+4. Install the requirements using ``pip install -r requirements.txt``
 5. Run django server
 ```
 python manage.py runserver
 ```
-6. Open the link specified on your termial in a browser
+6. Open your browser and go to the url
+```
+127.0.0.1:8000
+```
+# How to use
+[![app-index-screenshot][index]](#usage)
+
+# Acknowledgements And References
+
+[Django Documentation](https://docs.djangoproject.com/en/)
+
+[CS50W](https://cs50.harvard.edu/web/2020/)
+
+[Bootstrap](https://getbootstrap.com/)
+
+[CodePen.io](https://codepen.io/bennettfeely/pen/DrNgoO)
