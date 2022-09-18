@@ -48,7 +48,7 @@ python manage.py runserver
 127.0.0.1:8000
 ```
 # How to use
-[![app-index-screenshot][index]](#usage)
+[[![app-index-screenshot][index]]](#usage)
 
 # Acknowledgements And References
 
