@@ -37,14 +37,14 @@ The web application is mobile responsive.
 ## Build with
 
 
-* [![VSCode][VSCode.com]][VSCode-url]
-* [![Django][Django.com]][Django-url]
-* [![SQLite][SQLite.com]][SQLite-url]
-* [![HTML5][HTML5.com]][HTML5-url]
-* [![JavaScript][JavaScript.com]][JavaScript-url]
-* [![Python][Python.com]][Python-url]
-* [![Chart][Chart.js]][Chart-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* ![VSCode][VSCode.com]
+* ![Django][Django.com]
+* ![SQLite][SQLite.com]
+* ![HTML5][HTML5.com]
+* ![JavaScript][JavaScript.com]
+* ![Python][Python.com]
+* ![Chart][Chart.js]
+* ![Bootstrap][Bootstrap.com]
 
 ## How to Run
 1. Clone or download the repo
@@ -70,7 +70,7 @@ add you username you wish to use and confirm your password.
 ![register](https://github.com/ujjvaljoshi45/tracker/blob/main/images/register.jpg)
 
 3. Now you will land on the main page of the website by signing in
-![index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jgp)
+![index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jpg)
 -> On the index page we have most of our web app
 -> You can add money to the add or expense.
 -> There is a bar at top right displaying the total sum you have in your account
@@ -81,7 +81,7 @@ add you username you wish to use and confirm your password.
 -> Fill some value at the given bar and add the amount you just earned to the application
 
 5. Add Expense
-![add expense](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20expense.jgp)
+![add expense](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20expense.jpg)
 -> This part is used to add expense to the tracker
 -> Note that you can only add expense to the app only if you have enough money in the application
 -> Adding expense that is more thant the money you have in the app will result in throwing an alert says "Not having enough money'!
