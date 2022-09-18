@@ -34,6 +34,18 @@ The web application is mobile responsive.
 | ``tracker/static/about.css``  | Contains Animation for about me page. |
 | ``tracker/templates`` | This folder contains all the html pages that are available.   |
 
+## Build with
+
+
+* [![VSCode][VSCode.com]][VSCode-url]
+* [![Django][Django.com]][Django-url]
+* [![SQLite][SQLite.com]][SQLite-url]
+* [![HTML5][HTML5.com]][HTML5-url]
+* [![JavaScript][JavaScript.com]][JavaScript-url]
+* [![Python][Python.com]][Python-url]
+* [![Chart][Chart.js]][Chart-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
 ## How to Run
 1. Clone or download the repo
 2. Open a terminal and locate the folder containing manage.py file
@@ -47,11 +59,41 @@ python manage.py runserver
 ```
 127.0.0.1:8000
 ```
-# Usage
-![index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jpg)
+## How to Use
+1. On firing 127.0.0.1:8000 you will land on this page.
+You have to sign in to your account (if you have register) to get all your records.
+![login](https://github.com/ujjvaljoshi45/tracker/blob/main/images/login.jpg)
+
+2. By clicking on 'register' hyper link at the botton you will land on the register page.
+Over here if you are a new user you have to register your self first
+add you username you wish to use and confirm your password.
+![register](https://github.com/ujjvaljoshi45/tracker/blob/main/images/register.jpg)
+
+3. Now you will land on the main page of the website by signing in
+![index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jgp)
+-> On the index page we have most of our web app
+-> You can add money to the add or expense.
+-> There is a bar at top right displaying the total sum you have in your account
+-> And then we have a navigation bar at the top of the page from where you can navigate to the different parts of the webpage
+
+4. Add Money
+![add money](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20money.jpg)
+-> Fill some value at the given bar and add the amount you just earned to the application
+
+5. Add Expense
+![add expense](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20expense.jgp)
+-> This part is used to add expense to the tracker
+-> Note that you can only add expense to the app only if you have enough money in the application
+-> Adding expense that is more thant the money you have in the app will result in throwing an alert says "Not having enough money'!
+-> Else you expense will be added
+
+6. View Expense
+![view expense](https://github.com/ujjvaljoshi45/tracker/blob/main/images/view%20expense.jpg)
+-> Now the final part of the application where all the expenses that you have made so far are listed
+-> It will list all the expenses along with expense name, amount, date and description
 
 
-# Acknowledgements And References
+## Acknowledgements And References
 
 [Django Documentation](https://docs.djangoproject.com/en/)
 
