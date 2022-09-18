@@ -36,7 +36,7 @@ The web application is mobile responsive.
 
 ## Build with
 
-![VSCODE](https://code.visualstudio.com/docs)
+[![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/docs)
 
 ## How to Run
 1. Clone or download the repo
