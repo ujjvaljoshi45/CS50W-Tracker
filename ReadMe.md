@@ -50,6 +50,7 @@ python manage.py runserver
 # Usage
 [![app-index-screenshot][index]](#usage)
 
+
 # Acknowledgements And References
 
 [Django Documentation](https://docs.djangoproject.com/en/)
