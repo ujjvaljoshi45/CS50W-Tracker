@@ -37,7 +37,7 @@ The web application is mobile responsive.
 ## Build with
 
 
-* ![VSCode][[VSCode.com](https://miro.medium.com/max/600/1*MGcLJS1ZvMFcBA94PXn16Q.png)]
+* ![VSCode](https://miro.medium.com/max/600/1*MGcLJS1ZvMFcBA94PXn16Q.png)]
 * ![Django][Django.com]
 * ![SQLite][SQLite.com]
 * ![HTML5][HTML5.com]
