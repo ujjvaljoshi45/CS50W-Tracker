@@ -36,15 +36,7 @@ The web application is mobile responsive.
 
 ## Build with
 
-
-* ![VSCode](https://miro.medium.com/max/600/1*MGcLJS1ZvMFcBA94PXn16Q.png)]
-* ![Django][Django.com]
-* ![SQLite][SQLite.com]
-* ![HTML5][HTML5.com]
-* ![JavaScript][JavaScript.com]
-* ![Python][Python.com]
-* ![Chart][Chart.js]
-* ![Bootstrap][Bootstrap.com]
+![VSCODE](https://code.visualstudio.com/docs)
 
 ## How to Run
 1. Clone or download the repo
