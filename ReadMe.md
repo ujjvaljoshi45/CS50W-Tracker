@@ -70,7 +70,7 @@ You have to sign in to your account (if you have register) to get all your recor
 ![register](https://github.com/ujjvaljoshi45/tracker/blob/main/images/register.jpg)
 
 3. Now you will land on the main page of the website by signing in
-<br>
+
 ![index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jpg)
 <br>
 -> On the index page we have most of our web app<br>
