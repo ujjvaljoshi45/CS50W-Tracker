@@ -61,44 +61,44 @@ python manage.py runserver
 ```
 ## How to Use
 1. On firing 127.0.0.1:8000 you will land on this page.
-You have to sign in to your account (if you have register) to get all your records.
+You have to sign in to your account (if you have register) to get all your records. <br>
 
 ![login](https://github.com/ujjvaljoshi45/tracker/blob/main/images/login.jpg)
 
-2. By clicking on 'register' hyper link at the botton you will land on the register page.Over here if you are a new user you have to register your self first add you username you wish to use and confirm your password.
+2. By clicking on 'register' hyper link at the botton you will land on the register page.Over here if you are a new user you have to register your self first add you username you wish to use and confirm your password.<br>
 
 ![register](https://github.com/ujjvaljoshi45/tracker/blob/main/images/register.jpg)
 
 3. Now you will land on the main page of the website by signing in
-
+<br>
 ![index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jpg)
-
--> On the index page we have most of our web app
--> You can add money to the add or expense.
--> There is a bar at top right displaying the total sum you have in your account
--> And then we have a navigation bar at the top of the page from where you can navigate to the different parts of the webpage
-
+<br>
+-> On the index page we have most of our web app<br>
+-> You can add money to the add or expense.<br>
+-> There is a bar at top right displaying the total sum you have in your account<br>
+-> And then we have a navigation bar at the top of the page from where you can navigate to the different parts of the webpage<br>
+<br>
 4. Add Money
 
-![add money](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20money.jpg)
+![add money](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20money.jpg)<br>
 
--> Fill some value at the given bar and add the amount you just earned to the application
+-> Fill some value at the given bar and add the amount you just earned to the application<br>
 
-5. Add Expense
+5. Add Expense<br>
 
-![add expense](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20expense.jpg)
+![add expense](https://github.com/ujjvaljoshi45/tracker/blob/main/images/add%20expense.jpg)<br>
 
--> This part is used to add expense to the tracker
--> Note that you can only add expense to the app only if you have enough money in the application
--> Adding expense that is more thant the money you have in the app will result in throwing an alert says "Not having enough money'!
--> Else you expense will be added
+-> This part is used to add expense to the tracker<br>
+-> Note that you can only add expense to the app only if you have enough money in the application<br>
+-> Adding expense that is more thant the money you have in the app will result in throwing an alert says "Not having enough money'!<br>
+-> Else you expense will be added<br>
 
 6. View Expense
 
 ![view expense](https://github.com/ujjvaljoshi45/tracker/blob/main/images/view%20expense.jpg)
 
--> Now the final part of the application where all the expenses that you have made so far are listed
--> It will list all the expenses along with expense name, amount, date and description
+-> Now the final part of the application where all the expenses that you have made so far are listed<br>
+-> It will list all the expenses along with expense name, amount, date and description<br>
 
 
 ## Acknowledgements And References
