@@ -48,7 +48,7 @@ python manage.py runserver
 127.0.0.1:8000
 ```
 # Usage
-[![index][index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jpg)
+![index](https://github.com/ujjvaljoshi45/tracker/blob/main/images/index.jpg)
 
 
 # Acknowledgements And References
