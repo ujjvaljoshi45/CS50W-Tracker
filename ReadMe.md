@@ -17,8 +17,23 @@ Tracker is a part of project ExpenseManager.
 Tracker is very much distinct from all other projects in this course.
 It is also not based on the old CS50W Pizza project.
 
-Tracker i made with Django using 3 models and JavaScript.
-
+Tracker is using 3 django models:
+  * User:
+  ->This model look after maintaining different users.
+  ->This uses AbstractUser which is a provided by django
+  
+  * Expense:
+  -> This model look after all the expenses our user had made so far.
+  -> This model is very important as it consists all the data of the expenses
+  
+  * TotalAmount:
+  -> TotalAmount as the name suggests keeps track of the total amount a user is holding currently
+  
+ In this way tracker uses these 3 models together to store and retrive data.
+ 
+Other than this I myself had written the code to authenticate the user at server side. Also, I had written JavaScript,
+at the client side to make sure that our app does not needs reload in case of adding and retriving expenses.
+And Due to all this reasons I belive it as tough enough to fulfill all the Capstone acceptance criteria
 The web application is mobile responsive.
 
 ## Overview
