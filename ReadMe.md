@@ -18,16 +18,16 @@ Tracker is very much distinct from all other projects in this course.
 It is also not based on the old CS50W Pizza project.
 
 Tracker is using 3 django models:
-  * User:
+  * User: <br>
   ->This model look after maintaining different users.
-  ->This uses AbstractUser which is a provided by django
+  ->This uses AbstractUser which is a provided by django.
   
-  * Expense:
+  * Expense:<br>
   -> This model look after all the expenses our user had made so far.
-  -> This model is very important as it consists all the data of the expenses
+  -> This model is very important as it consists all the data of the expenses.
   
-  * TotalAmount:
-  -> TotalAmount as the name suggests keeps track of the total amount a user is holding currently
+  * TotalAmount:<br>
+  -> TotalAmount as the name suggests keeps track of the total amount a user is holding currently.
   
  In this way tracker uses these 3 models together to store and retrive data.
  
